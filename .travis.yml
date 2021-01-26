@@ -1,0 +1,10 @@
+language: generic
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t ckjalejo/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true ckjalejo/docker-react npm run test
