@@ -9,6 +9,10 @@ function App() {
         <p>
           I was changed on the feature branch again.
         </p>
+        <br></br>
+        <p>
+            <b>new change</b>
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
