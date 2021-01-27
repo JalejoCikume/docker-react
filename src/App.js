@@ -9,6 +9,7 @@ function App() {
         <p>
           <b>Hello there!</b>
           I was changed on the feature branch first.
+          <b> And that is all</b>
         </p>
       </header>
     </div>
